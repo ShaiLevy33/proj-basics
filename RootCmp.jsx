@@ -1,9 +1,10 @@
 
 import { AppHeader } from "./cmps/AppHeader.jsx"
 import { Home } from "./cmps/Home.jsx"
-import { AnimalTable } from "./cmps/AnimalTable.jsx";
+import { AnimalTable } from "./cmps/AnimalTable.jsx"
 import {SeasonClock} from './cmps/SeasonClock.jsx'
 import {CountDown} from './cmps/CountDown.jsx'
+import {MouseMonitor} from './cmps/MouseMonitor.jsx'
 const { useState } = React
 
 export function RootCmp() {
@@ -20,6 +21,7 @@ export function RootCmp() {
                 <AnimalTable />
                 <SeasonClock />
                 <CountDown/>
+                <MouseMonitor/>
             </main>
         </section>
     )

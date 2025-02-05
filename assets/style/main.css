@@ -189,6 +189,27 @@ input:focus {
 	}
 }
 
+.mouse-monitor {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+
+}
+
+.mouse-monitor h3 {
+    margin-block: 0;
+}
+
 .home {
 	font-size: 1em;
 }
@@ -220,6 +241,7 @@ a.active {
 	font-weight: 600;
 	text-decoration: underline;
 }
+
 
 
 @media (max-width: 720px) {
